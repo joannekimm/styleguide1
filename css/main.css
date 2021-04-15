@@ -195,10 +195,11 @@ ol li {
 
 #colors img {
 	display:block;
-	height: 6.5em;
-
 }
 
+#overview {
+	margin-bottom:6em;
+}
 .button {
 	margin-top:1em;
 	color:#EA981D;
@@ -233,7 +234,6 @@ img {
 #colors img {
 	margin-bottom: 1em;
 	margin-top: 1em;
-	border-radius: 50%;
 }
 
 .color-grid-container {
