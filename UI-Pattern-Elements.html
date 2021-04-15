@@ -17,20 +17,10 @@
           <li> <a class = "active" href = 'UI-Pattern-Elements.html'> UI-Pattern-Elements </a>
               <ul class="dropdown" aria-label="submenu">
                 <li> <a href = '#nav'> Main navigation </a> </li>
-                <li> <a href = '#breadcrumbs'> Breadcrumbs </a> </li>
-                <li> <a href = '#product'> Product detail module </a> </li>
-                <li> <a href = '#recipe-detail'> Recipe detail page </a> </li>
-                <li> <a href = '#all-recipes'> All recipe module </a> </li>
-                <li> <a href = '#recommended'> Recommended recipe module </a> </li>
-                <li> <a href = '#cart'> Shopping cart module </a> </li>
-                <li> <a href = '#checkout'> Checkout page </a> </li>
                 <li> <a href = '#footer'> Footer </a> </li>
-                <li> <a href = '#grid'> Website grid structure </a> </li>
               </ul>
             </li>
             <li> <a href = 'Citations.html'> Citations </a> </li>
-            <li> <a href = 'Wireframes.html'> Wireframes</a> </li>
-            <li> <a href = 'Naming-Conventions.html'> Naming Conventions</a> </li>
           </ul>
         </nav>
       </div>
@@ -38,472 +28,66 @@
 
     <div class = "main-container">
       <div class = "main-item">
-        <h2> Modular Pattern Elements </h2>
-        <h3> Main navigation module </h3> 
-        <p> This is a sample of the grainjar main navigation. We used a small dark green navigation bar with a white logo. </p>
-        
-        <nav id = "nav">
-          <ul>
-            <li> <a class= "logo-navsample" href = "#logo"> <img src = "img/logo.svg" alt= "image of logo" width= "90"> </a></li>
-            <li> <a href = "#shop"> shop </a> </li>
-            <li> <a href = "#recipes"> recipes </a>  </li>
-            <li> <a href = "#about"> about </a> </li>
-            <li> <a href = "#cart"> <img src = "img/cart.svg" alt = "cart" width= "25"></a> </li>
-          </ul>
 
-          <div class = "code">
-            <code> Sample code </code> <p></p>
-            <code>  &lt;nav class =  &quot;desktop-nav&quot;&gt; </code> <p></p>
-            <code> &lt;ul&gt; </code><p></p>
-            <code>&lt;li&gt; &lt;a href = &quot;#shop&quot;&gt; shop all &lt;/a&gt; &lt;/li&gt; </code><p></p>
-            <code>&lt;li&gt; &lt;a href = &quot;#recipes&quot;&gt; recipes &lt;/a&gt; &lt;/li&gt; </code><p></p>
-            <code> &lt;li&gt; &lt;a href = &quot;#about&quot;&gt; about &lt;/a&gt; &lt;/li&gt;</code><p></p>
-            <code> &lt;/ul&gt; </code><p></p>
-            <code> &lt;/nav&gt;</code>
-          </div>
-          <p> Author : Joanne Kim </p>
-        </nav>
+        <h2> Project overview section</h2>
 
-        <section id ="breadcrumbs">
-          <h3> Checkout breadcrumb </h3>
-          <p> Breadcrumbs show users their current location relative to the information architecture and enable them to quickly move up to a parent level or previous step. </p> 
-          <div class ="bread-example">
-            <a href = "#"> Information &#8250; </a>
-            <a href = "#"> Shipping &#8250;</a>
-            <a href = "#"> Payment &#8250;</a>
-            <a href = "#"> Summary </a> 
-        </div>
-        <code> Sample code &lt;a href = &quot;#&quot;&gt; Information &lt;/a&gt; </code>
-        <p> Author : Clare Huang </p>
+    <!--Preview image-->
 
-          <section id ="anatomy">
-            <h3> Anatomy </h3>
-            <img src ="img/anatomy2.jpg" alt = "breadcrumb anatomy" width = "410">
-            <ol>
-              <li> Page link: Directs users to the parent-level page. </li>
-              <li> Arrow: shows the order of content.</li>
-            </ol>
-          </section>
-        </section>
+     <div class= "preview">
+      <img src = "img/project2.png" alt= "preview" width = "850">
+    </div>
 
-        <section id = "product">
-          <h3> Product detail page module </h3>
-          <p> This is a sample of the product detail page on the grainjar website. Spacing and interactive elements such as flavour and size selection are important to consider. 
-          </p>
-          <div class = "product-module">
-            <div class = "image-container">
-              <img src = "img/product.jpg" alt= "product image" width= "320">
+    <!--Starting overview section-->
+
+    <div class = "main-container">
+      <div class = "main-item">   
+
+        <div class="banner-text">
+         <h1> <strong> Bring your own cup (BYO) app </strong> </h1>
+         <h4> Reducing disposable cup waste in Metro Vancouver </h4> 
+       </div>
+
+
+    <section id ="overview">
+
+      <div class = "container-1">
+        <div class = "box">
+
+          <h4> Context </h4>
+          <p> 4+ months, Spring 2021 - present <br> Bring your own cup app (v1) </p>
+
+            <h4> Team & role </h4>
+             <p> Thomas Lee, Priscilla Lam, Sun, Angela Sun (devs) <br>  
+              My role: lead UX designer, low-high-fidelity mockups 
+              site-mapping, prototyping, user flows, website redesign</p>
             </div>
-            <div class = "detail-container">
-              <h5> best-seller</h5>
-              <h2 class = "product-name"> Whole-grain cereal</h2>
-              <h3 class="product-price"> $ 25.00 CAD </h3> <p></p>
-              <h4> select flavour </h4>
-              <div class ="flavour-container">
-                <div class ="left-flavour-item">
-                  <button class = "disabled-button"> honey</button> 
-                  <button class = "disabled-button"> cinnamon </button>
-                </div>
-                <div class = "right-flavour-item">
-                  <button class = "disabled-button"> mixed berry</button> 
-                  <button class = "disabled-button"> natural</button>
-                </div>
-              </div>
-              <h4> select size </h4>
-              <div class = "size-container">
-                <ul>
-                  <li> <button class = "size-button"> 300g </button></li>
-                  <li> <button class = "size-button"> 500g </button></li>
-                  <li> <button class = "size-button">1kg</button></li>
-                </ul>
-              </div>
-              <div class ="product-add-button">
-              <button class = "default-button"> Add to Cart </button></div>
-            </div>
-          </div>
-          <div class ="code">
-          <code> Sample code </code> <p> </p> <code>&lt;button class =  &quot;button&quot;&gt; honey &lt;/button&gt; </code> <p></p><code>
-          &lt;button class =  &quot;button&quot;&gt; mixed berry &lt;/button&gt; </code>
-        </div>
-        <p> Author : Joanne Kim </p>
-        </section>
-      
-        <section id = "checkout">
-          <h3> Checkout module </h3>
-          <p> This is a sample of the checkout module at grainjar. Forms must be concise and labels must be legible to clearly communicate usage to users. </p>
-        
-          <div class ="checkout-module">
-            <div class= "guest-checkout-container">
+
+            <div class= "box1">
+
+              <h4> Overview </h4>
+
+              <p> BYO is a mobile app-based program where customers who bring their own cups to local cafes can collect points towards rewards while contributing to global reforestation efforts by allocating a part of their usual discount to tree planting. </p>
+
+             </div>
+           </div>
+         </section> <!--Closing overview container-->
+
+         <h2> Project preview section</h2>
+
+         <div class= "container">
+
+            <h3> Grainjar cereal company website </h3>
+            <p> Designing a brand style guide and building an e-commerce website for a fictional cereal company called grainjar.</p>
             
-              <h4> Guest checkout </h4>
-
-              <form>
-              <label for="email">Email</label>
-              <input type="text" id="email" name="email ">
-              <label for="pword">Password</label>
-              <input type="text" id="pword" name="pword"> 
-              </form>
-                <button class ="default-button"> Continue to shipping </button>
-            </div>
-
-              <div class= "summary-checkout-container">
-                <div class = "purchased-summary-item">
-                  
-                  <div class ="image-purchased">
-                    <img src = 'img/b0.png' alt="Chia seed fluff" width = "100">
-                  </div>
-
-                  <div class = "details-purchased">
-                    <h4> Chia seed fluff </h4>
-                    <p class="cart-choices"> Honey | 1 kg</p>
-                    <div class="summary-pandq">
-                    <p> Qty: 1 </p>
-                    <p> $25.00 </p>
-                    </div>
-                  </div>
-                </div>
-
-                <hr class="checkout-line">
-
-                <div class ="subtotal-item">
-                  
-                  <div class ="summary-price-label">
-                    <div class ="label-subtotal">Subtotal</div>
-                    <div class="subtotal-price">$25.00</div>
-                  </div>
-
-                  <div class ="summary-price-label">
-                    <div class ="label-tax">Tax</div>
-                    <div class="tax-price">$1.25</div>
-                  </div>
-
-                  <div class ="summary-price-label">
-                    <div class ="label-shipping">Shipping</div>
-                    <div class="shipping-price">Next step</div>
-                  </div>
-
-                  <hr class="checkout-line">
-
-                  <div class ="summary-price-label">
-                    <div class ="label-total">Total</div>
-                    <div class="total-price">$26.25</div>
-                  </div>
-
-               </div><!-- Closing subtotal-tem -->
-            </div>
+            <!-- mockup psd from https://www.mockupworld.co/free/category/iphone/page/2/-->
+            <div class ="swing">
+              <a href ="project4.html"> <img src = "img/grainjarr.png" alt= "grainjar cereal project" width = "700"></a>
           </div>
 
-          <div class ="code">
-            <code> Sample code</code> <p> </p>
-            <code> &lt;form&gt; </code> <p></p>
-            <code> &lt;label for =  &quot;email&quot;&gt; Email &lt;/label&gt;</code><p></p>
-            <code> &lt;input type =  &quot;text&quot; id =  &quot;email&quot; name = &quot;email&quot;&gt;</code><p></p>
-            <code> &lt;/form&gt;</code>
-          </div>
-          <p> Author : Sophia Wang </p>
-        </section>
+            <a class = "button" href ="project4.html"> Learn more &rarr; </a>
 
-        <section id = "recipe-detail">
-          <h3> Recipe detail module </h3>
-          <h3> How to make the perfect parfait</h3>
-          <img src ="img/granola-parfait.png" alt="recipe detail" width="750">
-          <p> This recipe is made with one of our customer favorites Cinnamon Walnut Grain Free Granola. So healthy and delicious! Snack attack waiting to happen. This crispy granola stays crunchy in your milk and is filled with wonderful sweet nutty flavors.</p>
+        </div> <!--Closing container 1-->
 
-          <div class = "recipe-container">
-            <div class = "recipe-item">
-              <h4> Details </h4>
-              <ul>
-                <li> Prep Time: 5 minutes</li>
-                <li> Serving Size: 4 servings </li>
-              </ul>
-            </div>
-
-            <div class = "recipe-item">
-              <h4> Ingredients list </h4>
-              <ul>
-                <li> grainjar Cinnamon Walnut Grain Free Granola</li>
-                <li> Greek yogurt </li>
-                <li> Honey for drizzle on top </li>
-                <li> Blueberries to top it off </li>
-              </ul>
-            </div>
-          </div>
-
-          <h3> Instructions</h3>
-          <ol>
-            <li> In small jars layer the granola and yogurt.</li>
-            <li> Then top off with blueberries and honey drizzle.</li>
-          </ol>
-
-          <div class = "instructions-container">
-            <div class = "instructions-image">
-              <img src = "img/granola-parfait-2.png" alt ="instructions image 1" width= "330">
-            </div>
-              <div class = "instructions-image">
-              <img src = "img/granola-parfait-3.png" alt ="instructions image 2" width= "330">
-            </div>
-          </div>
-
-          <div class ="code">
-            <code> Sample code</code> <p></p>
-            <code> &lt;h3&gt; How to make the perfect parfait &lt;/h3&gt; </code><p></p> 
-            <code> &lt;img src =  &quot;img/granola-parfait.png&quot; alt=&quot;recipe detail&quot; width=&quot;750&quot;&gt;</code><p></p> 
-            <code> &lt;h4&gt; Details &lt;/h4&gt; </code><p></p> 
-            <code> &lt;li&gt; Prep Time: 5 minutes &lt;/li&gt; </code><p></p> 
-            <code> &lt;li&gt; Serving Size: 4 servings &lt;/li&gt; </code><p></p> 
-          </div>
-        </section>
-
-
-        <!-- Section All Recipe Module -->
-        <section id = "all-recipes">
-          <h3>All Recipes Module</h3>
-          <h3>All Recipes</h3>
-
-          <div class = "recipe-preview-container">
-            <div class = "recipe-img">
-              <img src="img/berry-crisp.png" alt="triple berry crisp" width = "211">
-            </div>
-
-            <div class = "recipe-blurb">
-              <h4>Triple Berry Crisp</h4>
-              <ul>
-                <li>Total Time: 65 minutes +</li>
-                <li>Serving Size: 9 servings</li>
-              </ul>
-
-              <p>The easiest Triple Berry Crisp made with frozen raspberries, blueberries 
-                and blackberries for a juicy berry filling nestled under a crispy oat topping.</p>
-              
-              <a href=''>Read more &rarr;</a>  
-            </div>
-          </div>
-
-          <div class = "recipe-preview-container">
-            <div class = "recipe-img">
-              <img src="img/easy-overnight-oats.png" alt="easy overnight oats" width = "211">
-            </div>
-
-            <div class = "recipe-blurb">
-              <h4>Easy Overnight Oats</h4>
-              <ul>
-                <li>Total Time: 5 minutes +</li>
-                <li>Serving Size: 1 serving</li>
-              </ul>
-
-              <p>This easy overnight oats recipe is a healthy simple breakfast that you can make 
-                ahead for busy mornings and customize with many add-ins and toppings!</p>
-              
-              <a href=''>Read more &rarr;</a>  
-            </div>
-          </div>
-            
-          <div class = "recipe-preview-container">
-            <div class = "recipe-img">
-              <img src="img/chocolate-pumpkin-granola.png" alt="chocolate pumpkin granola" width = "211">
-            </div>
-            
-            <div class = "recipe-blurb">
-            <h4>Chocolate Pumpkin Granola</h4>
-            <ul>
-              <li>Total Time: 50 minutes +</li>
-              <li>Serving Size: 2 servings</li>
-            </ul>
-
-              <p>This recipe for pumpkin granola is loaded with nutty pecans and studded with 
-                chocolate chips for the perfect hint of chocolatey goodness. Vegan + gluten-free.</p>
-              
-              <a href=''>Read more &rarr;</a>  
-            </div>
-          </div>
-
-          <div class ="code">
-            <code> Sample code</code> <p></p>
-            <code> &lt;h3&gt; All Recipes &lt;/h3&gt; </code><p></p> 
-            <code> &lt;img src =  &quot;img/berry-crisp.png&quot; alt=&quot;triple berry crisp&quot; width=&quot;211&quot;&gt;</code><p></p> 
-            <code> &lt;h4&gt; Triple Berry Crisp &lt;/h4&gt; </code><p></p> 
-            <code> &lt;li&gt; Total Time: 65 minutes + &lt;/li&gt; </code><p></p> 
-            <code> &lt;li&gt; Serving Size: 9 servings &lt;/li&gt; </code><p></p> 
-            <code> &lt;p&gt; The easiest Triple Berry Crisp made with frozen raspberries. &lt;/p&gt; </code><p></p> 
-          </div>
-        </section>
-
-          <!-- Carousel Module -->
-        <h3> Carousel module </h3>
-        <section id="recommended">
-          <h3> Recommended for you </h3>
-          <div class = "recommended-grid">
-            <div class = "recommended-item">
-              <img src = img/b0.png alt="cereal" width="130">
-              <h4> Chia seed fluff </h4>
-              <p>$ 25.00 CAD</p>
-            </div>
-            <div class = "recommended-item">
-              <img src = img/b1.png alt="cereal" width="130">
-              <h4> Toasted granola </h4>
-              <p>$ 25.00 CAD</p>
-            </div>
-            <div class = "recommended-item">
-              <img src = img/b2.png alt="cereal" width="130">
-              <h4> Fig nut </h4>
-              <p>$ 25.00 CAD</p>
-            </div>
-            <div class = "recommended-item">
-              <img src = img/b3.png alt="cereal" width="130">
-              <h4> Banana granola </h4>
-              <p>$ 25.00 CAD</p>
-            </div>
-          </div>
-        </section>
-
-        <!-- Section Shopping Cart -->
-        <section id="cart">
-          <h3>Shopping Cart Module</h3>
-          <!-- https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_th-->
-          <div class="cart-grid-container">
-
-          <p class="cart-item cart-header-product"><b>Product</b></p>
-            <p class="cart-item cart-header-quantity"><b>Quantity</b></p>
-            <p class="cart-item cart-header-price"><b>Price</b></p>
-      
-            <button type="button" class="cart-item" id="cart-button">&times;</button>
-            
-            <img src="img/b0.png" alt="A picture of a bowl of granola with milk" class="cart-item" id="cart-image" width="120" height="130">
-
-            <div class="cart-item" id="cart-product-detail">
-              <p class="cart-product-name">Chia seed fluff</p> 
-              <p class="cart-choices"> Honey | 1 kg</p>
-            </div>
-            
-
-            <!-- https://bootsnipp.com/snippets/Max59 -->
-            
-            <div class=" cart-item cart-item-button">
-
-                <!-- https://www.youtube.com/watch?v=wF2gOkBMmsk -->
-                <div class="cart-quantity-button">
-                  <button id="subtract">-</button>
-                  <input type="number" value="1" class="quantity-input">
-                  <button id="add">+</button>
-                </div>
-
-              </div>
-
-              <p class="cart-item cart-price">&dollar;25&period;00</p>
-          
-              <p class="cart-item cart-header-subtotal" ><b>Subtotal</b></p>
-              <p class="cart-item cart-subtotal-price">&dollar;25&period;00</p>
-
-          </div> <!-- cart grid container --> 
-
-          <div class="code">
-            <code> Sample code</code> <p></p>
-            <p><code>
-              &lt;table&gt;
-                &lt;tr&gt;
-                    &lt;th&gt;Product&lt;&sol;th&gt; 
-                  &lt;&sol;tr&gt;
-
-                  &lt;tr&gt;
-                    &lt;td&gt;Coco-hazelnut cereal&lt;&sol;td&gt;
-                  &lt;&sol;tr&gt;
-                &lt;&sol;table&gt;
-            </code></p>
-          </div>
-        </section>
-
-        <!-- Section Footer -->
-
-        <h3>Footer Module</h3>
-        <section id = "footer">
-
-      <div class="footer-container">
-
-        <div class="footer-item footer-logo">
-          <img src="img/logo-footer.svg" alt="image of logo" width="200">
-        </div>
-
-        <div class="footer-item footer-detail">
-          <ul class="footer-adress"><li>5617 Mainland Street</li><li>Vancouver, BC  V6B 2T4</li></ul>
-          <ul class="footer-adress"><li>4625 Quebec Street</li><li>Vancouver, BC  V9C 1P7</li></ul>
-        </div>
-
-        <div class="footer-item footer-detail">
-          <ul class="footer-adress"><li class="footer-title">Hours</li><li>Mon-Sun 9AM - 7PM</li></ul>
-          <ul class="footer-adress"><li class="footer-title">Phone</li><li>604-352-0938</li></ul>
-        </div>
-
-        <div class="footer-item footer-info">
-          <ul>
-          <li><p class="footer-title">Information</p></li>
-          <li><a href="Recipe.html">Recipes</a></li> 
-          <li><a href="About.html">About</a></li>
-          <li><a href="#">Shipping</a></li> 
-          <li><a href="#">Return</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-item footer-info">
-          <ul>
-          <li><p class="footer-title">Products</p></li>
-          <li><a href="Product-Favourites.html">Favourites</a></li>
-          <li><a href="Product-Breakfast.html">Breakfast</a></li> 
-          <li><a href="Product-Dessert.html">Dessert</a></li> 
-          <li><a href="Product-Snack.html">Snack</a></li> 
-          </ul>
-        </div>
-
-        <div class="footer-item footer-social">
-          <a class="footer-social-icon" href="#"><img src="img/instagram.png" alt="image of instagram icon" width="40"></a>
-          <a class="footer-social-icon" href="#"><img src="img/twitter.png" alt="image of twitter icon" width="38"></a>
-          <a class="footer-social-icon" href="#"><img src="img/facebook.png" alt="image of facebook icon" width="40"></a>
-        </div>
-
-      </div> <!-- Closing footer-container -->
-
-      <div class="footer-crumb">
-
-         <div class="footer-item footer-info-links">
-          <p><a href="https://joannekimm.github.io/styleguide0/Basic-Styles.html">Style Guide</a></p>
-          <p><a href="https://joannekimm.github.io/styleguide0/Wireframes.html">Wireframes</a></p>
-          <p><a href="https://joannekimm.github.io/styleguide0/Citations.html">Citations</a></p>
-        </div>
-
-        <div class="footer-item footer-rights">
-          <p>&copy;2021 grainjar, Inc. All Right Reserved</p>
-        </div>
-      
-      </div> <!-- Closing footer-crumb -->
-
-    </section> <!-- Closing footer -->
-
-
-        <section id = "grid">
-          <h3> Website grid structure </h3>
-          <p> Our grid system is composed of 8 flexible columns with variable gutter sizes: 22 px for the navigation, 44 px between filter options and 66 px between product grid items. The left and right margin are both 125 px from the edge. </p>
-          <h3> Home page grid layout </h3>
-          <div class ="g-container">
-            <div id ="logo-gridsample"><h4> Logo </h4> </div>
-            <div id ="navbar"><h4>Navbar </h4></div>
-            <div id ="banner"><h4>Banner</h4></div>
-            <div id = "main"><h4> Main</h4></div>
-            <div class = "row-container">
-            <div class ="content">Content</div>
-            <div class ="content">Content</div>
-            <div class ="content">Content</div>
-            <div class ="content">Content</div>
-          </div>
-          <div class = "row-container">
-            <div class ="content">Content</div>
-            <div class ="content">Content</div>
-            <div class ="content">Content</div>
-            <div class ="content">Content</div>
-          </div>
-          <div id = "recipe"><h4> Recipes</h4></div>
-          <footer> <h4> Footer </h4> </footer>
-        </div>
-        <p> Author : Joanne Kim </p>
-        </section> 
       </div>
     </div>
   </body>
