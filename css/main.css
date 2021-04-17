@@ -60,6 +60,15 @@ p{
     line-height:1.8em;
 }
 
+#overview p {
+	line-height:2.2em;
+	font-weight:300;
+}
+
+.banner-text{
+	margin-top:4em;
+}
+
 img{
 	max-width: 100%;
 	height: auto;
@@ -222,14 +231,6 @@ ol li {
 	margin-right: 2em;
 }
 
-.form p {
-	margin-top:-1em;
-}
-
-.flavour-container .disabled-button {
-	display:block;
-}
-
 img {
 	margin-bottom:-0.4em ;
 
@@ -275,13 +276,6 @@ img {
 	background-color: white;
 	border: 1px solid rgb(40,61,59);
 	transition-duration: 0.4s;
-}
-
-.line-checkout {
-	border-left: 1px solid black;
-	height: 27em;
-	margin-right: -3em;
-	margin-left: 3em;
 }
 
 #citations {
